@@ -92,6 +92,7 @@
     }
     .b_item h1{
         font-size: 13px;
+        width:auto;
     }
     .b_item h1 span{
         font-size: 10px;
