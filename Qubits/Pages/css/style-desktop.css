@@ -1,0 +1,136 @@
+/* Bannaer */
+.banner .container .banner-imgs .col-md-6{
+    margin-left: 76px;
+}
+/* Log design */
+.log_design .owl-item {
+    width: auto;
+}
+
+.log_design .owl-items {
+    width: min-content;
+    margin: 0;
+}
+
+.log_design .owl-item{
+    display: flex;
+    justify-content: center;
+}
+/* log image */
+.log-img .img-log-fluid {
+    right: 1px;
+    top: 13rem;
+}
+/* Our features */
+.feat_heding h2 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.set_festure_before:before {
+    display: none;
+}
+/* portfolio */
+.resizeimage img {
+    height: 220px;
+}
+.portfolio .port-btn {
+    justify-content: center !important;
+    gap: 10px;
+}
+
+/* work ready */
+@media only screen and (max-width:1200px) {
+
+    .header-right,
+    .banner .container .col-md-6:last-child .banner-imgs,
+    .log-img .img-log-fluid {
+        display: none !important;
+    }
+
+    .exceptional_books_content {
+        padding: 0;
+    }
+
+    .exceptional_books_content h1,
+    .exceptional_books_content h1 span,
+    .exceptional_books_content h1 span:last-child {
+        text-align: center;
+        margin-top: -22px;
+        font-size: 44px;
+    }
+
+    .banner .special_rel .ever_last {
+        text-align: center;
+        padding: 22px 32px !important;
+        font-size: 21px !important;
+        width: auto !important;
+    }
+
+    .banner .special_rel .trus_piolet {
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+
+    .banner .container .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-right,
+    .banner .container .col-md-6:last-child .bannerForm {
+        position: static;
+    }
+
+    .exceptional_books_content .trus_piolet img {
+        display: none;
+    }
+
+    .exceptional_books_content p {
+        text-align: center;
+        padding-bottom: 39px;
+        padding-right: 0;
+        font-size: 17px;
+        padding-top: 15px;
+    }
+
+    .tooltp h2 {
+        font-size: 42px;
+    }
+
+    .bannerForm span p {
+        font-size: 36px;
+    }
+
+    /* our_fetures */
+    .our_fetures {
+        padding: 7px 0;
+    }
+
+    .set_festure_before:before {
+        left: -400px;
+    }
+
+    /* Packges */
+    .top-packages .container .row .col-md-4 a {
+        padding: 9px 13px;
+    }
+
+    /* WOrk ready */
+    .work-ready .col-md-3 a span {
+        font-size: 14px;
+    }
+
+    .work-ready .col-md-3 .bt-red span {
+        font-size: 13px;
+    }
+
+    .work-ready .col-md-3 .bt-red i {
+        font-size: 25px;
+    }
+    /* work process */
+    .work_process .work_right{
+        display: none;
+    }
+}

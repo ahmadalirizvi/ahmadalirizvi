@@ -1,0 +1,1047 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#loading{
+    background: black url(https://www.codenlogos.com/custom-logo-design/img/webp/logo.webp) center;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    transition: 15s ease-in-out;
+}
+body{
+    font-family: 'Open Sans',sans-serif !important;
+}
+.main-container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Header */
+.header-area {
+    background-color: #000;
+    padding: 1.6rem 0;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.con-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #999;
+    align-items: center !important;
+}
+
+.header-right .con-data a {
+    gap: 1rem;
+}
+
+.header-right h6 {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.bi-chat-right-text-fill {
+    font-size: 2.7rem;
+}
+
+.chat-span span {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+    display: block;
+
+}
+
+.chat-span span:last-child {
+    color: #15c182;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0;
+    position: relative;
+    top: 0;
+    line-height: .8;
+}
+
+.get-qoutes a,
+.trus_piolet a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+    width: 232px;
+    height: 46px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #666;
+}
+
+.get-qoutes span,
+.trus_piolet span {
+    color: #000;
+    padding-left: 14px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.trus_piolet {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.trus_piolet .bt-red i {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-right: 5px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.get-qoutes a:hover,
+.trus_piolet a:hover {
+    background-color: #dc3545;
+    color: #fff;
+    transition: all 1s;
+}
+
+.get-qoutes:hover span,
+.trus_piolet:hover span {
+    color: #fff;
+}
+
+.trus_piolet:hover a i {
+    color: #fff;
+    transition: all .5s;
+}
+
+.log-items .bt-red:hover span,
+.log-items .bt-red:hover i,
+.work-ready .col-md-3 .bt-red:hover i {
+    color: #fff;
+}
+
+.bi-play-circle-fill {
+    background: #15c182 !important;
+    padding: 8px 14px !important;
+    border-radius: 100% !important;
+    font-size: 15px !important;
+    color: #fff !important;
+    margin-right: 4px !important;
+}
+
+
+
+/* Banner*/
+#particles-js{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.banner {
+    background-image: url(https://www.codenlogos.com/custom-logo-design/img/main-banner.webp);
+    background-size: cover;
+    height: auto;
+    padding: 30px 0 87px;
+    background-position: center;
+    position: relative;
+    width: 100%;
+}
+.banner .container .banner-imgs{
+    position: relative;
+    z-index: 1;
+}
+.banner .container .banner-imgs .col-md-2 {
+    position: relative;
+    right: 278px;
+}
+
+.banner .container .banner-imgs .col-md-4 {
+    width: 100%;
+    margin-left: -66px;
+}
+.banner .container .banner-imgs .col-md-6 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.exceptional_books_content {
+    padding-top: 78px;
+    z-index: 1;
+    position: relative;
+}
+
+.exceptional_books_content h1 {
+    font-size: 72px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+.exceptional_books_content h1 span {
+    font-family: Oswald, sans-serif;
+    margin: 0;
+    color: #15c182;
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+.exceptional_books_content h1 span:last-child {
+    display: block;
+    font-size: 72px;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 80px;
+}
+
+.banner .special_rel .banner_con_set .ever_last {
+    background: #ecebfd;
+    padding: 22px 55px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+    border-radius: 4px;
+    line-height: 38px;
+    font-size: 30px;
+    width: 466px;
+}
+
+.ever_last span {
+    font-weight: 700;
+    color: #282828;
+}
+
+.exceptional_books_content p {
+    color: #fff;
+    margin: 0;
+    font-size: 19px;
+    padding-bottom: 69px;
+    padding-top: 45px;
+    padding-right: 20%;
+    line-height: 30px;
+}
+
+/* bannner form */
+.banner-right {
+    position: relative;
+}
+
+.tooltp.montfont {
+    border: 2px solid #fb1f32;
+    border-radius: 10px 10px 0 0;
+    background: #000;
+    border-bottom: none;
+}
+
+.tooltp h2 {
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    color: #fff;
+    padding: 17px 0;
+    font-size: 59px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.bannerForm {
+    border-radius: 10px;
+    text-align: center;
+    height: auto;
+    font-weight: 700;
+    background-color: #fff;
+    position: absolute;
+    top: -97px;
+}
+
+.bannerForm .banFormTp {
+    padding: 15px 10px;
+    background-color: #eee720;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerForm .banFormTp h2 {
+    font-size: 48px;
+    margin: 0;
+    text-transform: uppercase;
+    margin-right: 10px;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+}
+
+.bannerForm span p {
+    display: inline-block;
+    color: #eb0300;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+   margin: 0;
+}
+
+.bannerForm .banFormTp h3 {
+    color: #000;
+    font-weight: 700;
+    font-size: 15.4px;
+    margin: 0;
+    font-family: Poppins, sans-serif;
+}
+
+.banFormBt {
+    padding: 31px 20px 20px;
+    background: #f10d48;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 0;
+}
+
+.fixedform .mm-field {
+    height: 50px;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 19px;
+    width: 100%;
+    color: #767676;
+    border-radius: 55px;
+    background-color: #eee;
+    gap: 10px;
+}
+
+.fixedform .mm-field i {
+    font-size: 22px;
+    color: #c8c8c8;
+    margin-left: 18px;
+}
+
+.fixedform .mm-field input {
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.banFormBtt button[type=submit] {
+    border: none;
+    background-color: #eee720;
+    font-size: 18px;
+    margin: 9px 0;
+    color: #000;
+    margin-bottom: 10px;
+    border-radius: 55px;
+    font-weight: 700;
+    padding: 17px 0;
+    text-transform: uppercase;
+    width: 100%;
+    cursor: pointer;
+}
+
+.regist_anch {
+    font-size: 12.44px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    margin-top: 8px;
+}
+
+.regist_anch a {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Log design */
+.owl-items {
+    width: 100%;
+}
+
+.log_design .owl-carousel .owl-stage-outer {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.log_design {
+    padding: 60px 0 100px 0;
+}
+
+.log-items {
+    padding: 37px 62px 0 35px;
+    border: 1px solid #ccc;
+    border-radius: 11px;
+    text-align: left;
+    margin-right: 20px;
+    width: min-content;
+}
+
+.log-items:hover {
+    border: 1px solid #fc1f32;
+    transition: all .5s;
+}
+
+
+.log-items h1 {
+    font-family: Oswald, sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #333;
+    line-height: 50px;
+    margin: 0;
+    max-height: 100px;
+    overflow: hidden;
+    min-height: 100px;
+}
+
+.log-items h1 span:last-child {
+    display: block;
+}
+
+.owl-items:hover .log-items h1 {
+    color: #15c182;
+    transition: all 1s;
+}
+
+.owl-items:hover .bt-red {
+    border: 2px solid #fc1f32;
+}
+
+.log-items p {
+    color: #9d9d9d;
+    line-height: 35px;
+    padding-top: 27px;
+    padding-bottom: 38px;
+    display: block;
+    max-height: 360px;
+    overflow: hidden;
+    min-height: 360px;
+}
+
+.log-items .bt-red,
+.work-ready .col-md-3 .bt-red {
+    text-decoration: none;
+    border: 2px solid #666;
+    background-color: #fff;
+    width: 232px;
+    height: 46px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 10px;
+}
+
+.log-items .bt-red span,
+.work-ready .col-md-3 .bt-red span {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    padding-left: 14px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.log-items .bt-red:hover,
+.work-ready .col-md-3 .bt-red:hover {
+    background-color: #dc3545;
+    color: #fff;
+    border-color: #fc1f32;
+    transition: all .5s;
+}
+
+.log-items .bt-red:hover span,
+.work-ready .col-md-3 .bt-red:hover span {
+    color: #fff;
+    transition: all .5s;
+}
+
+.log-items .bt-red i,
+.work-ready .col-md-3 .bt-red i {
+    font-size: 34px;
+    color: #fc1f32;
+    margin-right: 5px;
+    margin-top: 0;
+}
+
+.log-img .img-log-fluid {
+    position: relative;
+    top: 10rem;
+    right: 30px;
+}
+
+.owl-theme .owl-nav,
+.owl-dots {
+    display: none;
+
+}
+
+
+/* features */
+.our_fetures {
+    background: #1d1d1d;
+    padding: 22px 0;
+    position: relative;
+}
+
+.our_fetures .row .col-xl-8 {
+    position: relative;
+}
+
+.set_festure_before:before {
+    background: url(https://www.codenlogos.com/custom-logo-design/img/fetures-before.webp);
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 84px;
+    left: 0;
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+.feat_heding h2 {
+    font-family: Oswald, sans-serif;
+    position: relative;
+    z-index: 1;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.featurs_inner ul {
+    display: flex;
+    margin-bottom: 0;
+}
+
+.featurs_inner ul li {
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+}
+
+.featurs_inner ul li span {
+    color: #fff;
+    font-size: 14px;
+    padding-left: 17px;
+}
+
+.featurs_inner ul li i {
+    color: #fff;
+    font-size: 28px;
+
+}
+
+/* portfolio */
+.portfolio {
+    background: #eaeaea;
+    padding-top: 107px;
+}
+
+.portfolio .container {
+    /* width: 1170px; */
+}
+
+.portfolio .heading-sec {
+    text-align: center;
+}
+
+.portfolio .heading-sec h1 {
+    font-size: 48px;
+    color: #333;
+    margin: 0;
+    padding-bottom: 33px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+}
+
+.portfolio .heading-sec h1 span:last-child {
+    color: #15c182;
+}
+
+.portfolio .heading-sec p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #9d9d9d;
+    padding-bottom: 65px;
+}
+.portfolio .col-md-4{
+    padding: 0;
+}
+.portfolio img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.resizeimage img {
+    height: 287.5px;
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.port-btn {
+    padding: 59px 16% 94px;
+}
+
+.liv_cht {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-decoration: none;
+}
+
+.liv_cht span {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.liv_cht h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.port-btn a {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.liv_cht span i {
+    font-size: 17px;
+    color: #fc1f32;
+    margin-left: 5px;
+}
+
+/* register */
+.rigister {
+    background: url(https://www.codenlogos.com/custom-logo-design/img/register-bg.webp);
+    padding: 50px 0;
+    background-size: cover;
+}
+
+.rigister .container {
+    /* max-width: 1170px; */
+}
+
+.rigister .rigister-heading h2 {
+    font-size: 26px;
+    font-weight: 400;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+}
+
+.rigister .rigister-heading h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.rigister .rigister-heading h1 span {
+    color: #1d1d1d;
+}
+
+/* work ready */
+.work-ready {
+    background-color: #1d1d1d;
+    ;
+}
+
+.work-ready .container {
+    /* max-width: 1170px; */
+}
+
+.work-ready .col-md-3 {
+    border-right: 1px solid #9191918a;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    gap: 12px;
+}
+
+.work-ready .col-md-3 a {
+    text-decoration: none;
+}
+
+.work-ready .col-md-3 p {
+    color: #919191;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.work-ready .col-md-3 a span {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.work-ready .col-md-3 i {
+    color: #d3071a;
+    font-size: 15px;
+    margin-top: 22px;
+}
+
+.work-ready .col-md-3:last-child {
+    border: none;
+    padding-top: 0;
+}
+
+/* Pakages */
+.packages {
+    background: #4a524e;
+    padding: 61px 0 94px;
+}
+
+.packages .container .sec_headings h2 {
+    font-size: 42px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    font-family: Oswald, sans-serif;
+}
+
+.packages .container .sec_headings p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding-bottom: 65px;
+}
+
+.packages .owl-carousel-packages .owl-item-box {
+    background-color: #fff;
+    border-radius: 12px;
+    padding-top: 27px;
+    padding-bottom: 8px;
+    margin-right: 10px;
+    width: auto;
+
+}
+
+.packages .owl-carousel-packages .owl-item-box a {
+    text-decoration: none;
+}
+
+.packages a h1 {
+    font-family: Oswald, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #fc1f32;
+    margin-bottom: 0;
+    font-weight: 700;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.packages a h1 span {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    color: #555f74;
+    font-weight: 700;
+    padding-top: 5px;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.packages .owl-carousel-packages .owl-item-box .best-price h2 {
+    color: #151b27;
+    font-size: 72px;
+    text-align: right;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    margin: 0;
+    padding-right: 11px;
+}
+
+.packages .owl-carousel-packages .owl-item-box .best-price h3 {
+    color: #b4b3b7;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 15px;
+    border-left: 1px solid #b4b3b7;
+    padding-left: 11px;
+}
+
+.packages .owl-carousel-packages .owl-item-box .best-price h3 span {
+    display: block;
+}
+
+.packages .owl-carousel-packages .owl-item-box .owl-item-ul {
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.packages .owl-carousel-packages .owl-item-box ul {
+    width: 100%;
+    max-height: 165px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.packages .owl-carousel-packages .owl-item-box ul::-webkit-scrollbar {
+    width: 8px;
+}
+
+.packages .owl-carousel-packages .owl-item-box ul::-webkit-scrollbar-thumb {
+    background: rgb(21, 27, 39);
+    border-radius: 7px;
+    height: 68px;
+}
+
+
+.packages .owl-carousel-packages .owl-item-box ul li {
+    font-size: 15px;
+    color: #666;
+    line-height: 22px;
+    margin-bottom: 11px;
+    font-weight: 700;
+}
+
+.packages .owl-carousel-packages .owl-item-box .owl-item-btn {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.packages .owl-carousel-packages .owl-item-box .owl-item-btn a {
+    font-size: 15px;
+    background: #f10d48;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 1px solid #f10d48;
+    padding: 9px 45px;
+}
+
+.packages .owl-carousel-packages .owl-item-box .owl-item-btn a:hover {
+    background-color: #15c182;
+    border: 1px solid #15c182;
+    color: #fff;
+    transition: all .5s;
+}
+
+.packages .owl-carousel-packages .owl-item-box .talk-us {
+    margin-top: 22px;
+}
+
+.packages .owl-carousel-packages .owl-item-box .talk-us .talk-message a p {
+    border-right: 1px solid;
+    padding-right: 12px;
+}
+
+.packages .owl-carousel-packages .owl-item-box .talk-us .talk-call {
+    padding-left: 12px;
+}
+
+.packages .owl-carousel-packages .owl-item-box .talk-us .talk-message a,
+.packages .owl-carousel-packages .owl-item-box .talk-us .talk-call a {
+    text-decoration: none;
+    gap: 10px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+}
+
+/* top pakages */
+.top-packages .container {
+    margin-top: 70px;
+    background-color: #0c1623;
+    color: #fff;
+
+}
+
+.top-packages .container .row {
+    padding: 30px;
+}
+
+.top-packages .container .row .col-md-8 h1 {
+    font-size: 46px;
+    font-family: Oswald, sans-serif;
+}
+
+.combo-list-style ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 25px;
+}
+
+.combo-list-style ul li {
+    border-bottom: 1px dashed rgb(255 255 255 / 15%);
+    padding: 10px 0;
+    margin-right: 35px;
+    display: inline-flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.top-packages .container .row .col-md-4 .price-head {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+
+.top-packages .container .row .col-md-4 h2 {
+    text-decoration: line-through red;
+    font-size: 40px;
+}
+
+.top-packages .container .row .col-md-4 h1 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+    line-height: 60px;
+}
+.top-packages .container .row .col-md-4{
+    text-align: center;
+}
+.top-packages .container .row .col-md-4 a {
+    font-size: 15px;
+    background: #3575ff;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 9px 46px;
+    border-radius: 30px;
+    border: 1px solid #3575ff;
+    transition: all .5s;
+    /* margin-left: 6.5rem; */
+    text-decoration: none;
+}
+
+.top-packages .container .row .col-md-4 figure {
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+/* Award Area */
+.awards_area {
+    background: url(https://www.codenlogos.com/custom-logo-design/img/award-bg.webp);
+    background-size: cover;
+    padding: 57px 0;
+}
+
+.sec_headings {
+    text-align: center;
+    margin: 0;
+}
+
+.awards_area h2.set_head {
+    color: #15c182;
+    padding-bottom: 77px;
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Oswald, sans-serif;
+}
+
+.awards_area .container .row .col-md-10:last-child .col-md-2 {
+    padding: 0;
+    text-align: center;
+}
+/* Work progress */
+section.work_process {
+    padding: 110px 0 123px;
+}
+.sec_headings {
+    text-align: center;
+}
+.work_process .sec_headings h2{
+    font-family: Oswald,sans-serif;
+    font-size: 48px;
+    color: #333;
+    margin: 0;
+    padding-bottom: 33px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.work_process .sec_headings p{
+    color: #666;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 65px;
+}
+.prcess_box {
+    padding: 52px 33px 57px 46px;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all .5s;
+    cursor: pointer;
+}
+.prcess_box h2 {
+    font-family: Oswald,sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+.prcess_box p {
+    height: 130px;
+    font-size: 16px;
+}
+.prcess_box:hover {
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 20px 87px 0 rgb(0 0 0 / 21%);
+    transition: all .5s;
+}
+.prcess_box:hover h2{
+    color: #15c182;
+    transition: all .5s;
+}
+/* copy main */
+.copy_main {
+    background-color: #212122;
+}
+
+.copy_main .container .row .col-md-12 {
+    padding: 15px;
+}
+
+.copy_main .container .row .col-md-12 .copyright {
+    color: #fff;
+    padding: 27px 0;
+    margin: 0;
+}
+
+.copy_main .container .row .col-md-12 .copyright p {
+    margin-bottom: 0;
+}
+
+/* copy content end */
+.copy_content_area {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}

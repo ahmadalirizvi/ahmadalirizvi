@@ -1,0 +1,28 @@
+@media only screen and (max-width:800px) {
+    .cntr_pg {
+        top: 60%;
+    }
+
+    .search_bar {
+        width: 485px;
+    }
+
+    .mic {
+        left: 455px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .search_bar {
+        width: 385px;
+    }
+
+    .mic {
+        left: 355px;
+    }
+
+    .submit_buttons {
+        left: 50px;
+        right: 0;
+    }
+}

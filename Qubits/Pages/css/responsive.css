@@ -1,0 +1,72 @@
+@media only screen and (max-width:1200px) {
+
+    .header-right,
+    .banner .container .col-md-6:last-child .banner-imgs,.log-img .img-log-fluid  {
+        display: none !important;
+    }
+
+    .exceptional_books_content {
+        padding: 0;
+    }
+
+    .exceptional_books_content h1,.exceptional_books_content h1 span,
+    .exceptional_books_content h1 span:last-child {
+        text-align: center;
+        margin-top: -22px;
+        font-size: 44px;
+    }
+
+    .banner .special_rel .ever_last {
+        text-align: center;
+        padding: 22px 32px !important;
+        font-size: 21px !important;
+        width: auto !important;
+    }
+
+    .banner .special_rel .trus_piolet {
+        justify-content: center;
+        margin-bottom: 30px;
+
+    }
+    
+    .banner .container .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-right,
+    .banner .container .col-md-6:last-child .bannerForm {
+        position: static;
+    }
+
+    .exceptional_books_content .trus_piolet img {
+        display: none;
+    }
+
+    .exceptional_books_content p {
+        text-align: center;
+        padding-bottom: 39px;
+        padding-right: 0;
+        font-size: 17px;
+        padding-top: 15px;
+    }
+
+    .tooltp h2 {
+        font-size: 42px;
+    }
+
+    .bannerForm span p {
+        font-size: 36px;
+    }
+}
+@media only screen and (max-width: 576px){
+    
+    .bannerForm{
+        width: fit-content;
+    }
+    .banner-right {
+        display: flex;
+        justify-content: center;
+    }
+}

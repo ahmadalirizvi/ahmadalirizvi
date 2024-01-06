@@ -1,0 +1,201 @@
+p {
+    font-size: 18px !important;
+}
+
+h1,
+h2,
+h1 span,
+h2 span {
+    font-size: 40px !important;
+}
+
+.header-area {
+    padding: 1rem 0;
+}
+
+.header-area .container .row .logo {
+    width: 120px;
+}
+
+.banner {
+    padding: 20px;
+}
+
+.header-right,
+.banner .container .col-md-6:last-child .banner-imgs,
+.log-img .img-log-fluid {
+    display: none !important;
+}
+
+.banner .special_rel .banner_con_set .ever_last {
+    font-size: 23px !important;
+}
+
+.banner .special_rel .banner_con_set .ever_last span {
+    font-size: 23px !important;
+}
+
+.exceptional_books_content {
+    padding: 0;
+}
+.exceptional_books_content h1 span:last-child {
+    margin-bottom: 15px;
+}
+.exceptional_books_content h1,
+.exceptional_books_content h1 span,
+.exceptional_books_content h1 span:last-child {
+    text-align: center;
+    margin-top: -22px;
+}
+
+.banner .special_rel .ever_last {
+    text-align: center;
+    padding: 22px 32px !important;
+    width: auto !important;
+    margin-bottom: 0;
+}
+
+.banner .special_rel .trus_piolet {
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.banner .container .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right,
+.banner .container .col-md-6:last-child .bannerForm {
+    position: static;
+}
+
+.exceptional_books_content .trus_piolet img {
+    display: none;
+}
+
+.exceptional_books_content p {
+    text-align: center;
+    padding-bottom: 39px;
+    padding-right: 0;
+    padding-top: 15px;
+}
+
+/* Log Design */
+.log_design .owl-items {
+    display: flex;
+    justify-content: center;
+}
+
+/* our_fetures */
+.our_fetures {
+    padding: 7px 0;
+}
+
+.set_festure_before:before {
+    display: none;
+}
+
+.feat_heding h2 {
+    margin-bottom: 10px;
+}
+
+/* portfolio */
+.portfolio {
+    padding-top: 40px;
+}
+
+.portfolio .heading-sec h1 {
+    padding: 0;
+}
+
+.portfolio .heading-sec p {
+    margin: 12px 0 12px 0;
+    padding: 0;
+}
+
+.portfolio .port-btn {
+    justify-content: center !important;
+    gap: 10px;
+}
+
+.resizeimage img {
+    height: 145.5px;
+}
+
+.liv_cht h2 {
+    font-size: 24px !important;
+}
+
+
+/* Rigister */
+.rigister .rigister-heading h2 {
+    font-size: 26px !important;
+}
+
+/* Packages */
+.packages a h1 span {
+    display: block;
+    font-size: 18px !important;
+}
+
+/* Work ready */
+.work-ready .col-md-3 i,
+.work-ready .col-md-3 p {
+    font-size: 12px !important;
+}
+
+.work-ready .col-md-3 a span {
+    font-size: 13px;
+}
+
+.log-items .bt-red span,
+.work-ready .col-md-3 .bt-red span {
+    font-size: 16px !important;
+}
+
+.log-items .bt-red span,
+.work-ready .col-md-3 .bt-red i {
+    font-size: 24px !important;
+}
+
+/* Award Area */
+.awards_area {
+    padding: 16px 0;
+}
+
+.awards_area .sec_headings h2 {
+    padding: 0;
+    margin-bottom: 22px;
+}
+
+/* work process */
+section.work_process {
+    padding: 30px 0 0px;
+}
+
+.work_process .work_right {
+    display: none;
+}
+
+.work_process .container .sec_headings p {
+    padding: 0;
+}
+
+.prcess_box {
+    padding: 24px 33px 0px 46px;
+}
+
+@media only screen and (max-width: 865px) {
+    .our_fetures .container .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .resizeimage img {
+        height: 185.5px;
+    }
+
+}

@@ -1,0 +1,254 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    nav .container ul{
+        gap: 0;
+    }
+    .main_nav .container ul,
+    /* #on-scroll-nav, */
+    nav .container .resume-btn,
+    nav .container .profile img {
+        visibility: hidden;
+    }
+
+    /* hero section */
+    .hero-sec {
+        padding: 0;
+    }
+
+    .hero-sec h2 {
+        font-size: 12px;
+    }
+
+    .hero-sec p,
+    .skills .skills-heading p,
+    .projects .pro-heading p,
+    .contact .con-heading p,
+    .services .pro-heading p,
+    .service__text{
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 12px;
+        width: auto;
+    }
+
+    .hero-sec .container,
+    .projects .container .pro-list .col-md-6 h1,
+    .projects .container .pro-list .col-md-6 img {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+    }
+
+    .hero-sec .name,
+    .skills .skills-heading h1,
+    .projects .pro-heading h1,
+    .contact .con-heading h1,
+    .services .pro-heading h1,
+    .blogs_items h1  {
+        font-size: 22px;
+    }
+
+    .hero-sec .s-info {
+        font-size: 20px;
+    }
+
+    /* hero_img */
+    .hero-sec img,
+    .projects .container .pro-list .col-md-6 img {
+        width: 280px;
+    }
+
+    /* Skills */
+    .projects .container .pro-list .col-md-6 p {
+        visibility: hidden;
+    }
+
+    /* Buttons */
+    .contact .con-btn,
+    .hero-sec .container .con-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: column; */
+        margin-top: 0;
+        gap: 10px;
+    }
+
+    .contact .con-btn button,
+    .hero-sec .container .con-btn button {
+        margin-top: 15px;
+        width: 140px;
+    }
+
+    .contact .con-btn button a,
+    .hero-sec .container .con-btn button a {
+        font-size: 11px;
+    }
+    /* Blogs */
+    .blogs_items_main img{
+        width: 300px;
+    }
+    .b_item h1{
+        font-size: 13px;
+    }
+    .b_item h1 span{
+        font-size: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and(max-width: 992px) {
+    nav .container ul{
+        gap: 0;
+    }
+    .main_nav .container ul,
+    /* #on-scroll-nav, */
+    nav .container .resume-btn {
+        visibility: hidden;
+    }
+
+    /* hero section */
+    .hero-sec h2 {
+        font-size: 15px;
+    }
+
+    .hero-sec p,
+    .skills .skills-heading p,
+    .projects .pro-heading p,
+    .contact .con-heading p,
+    .services .pro-heading p,
+    .service__text{
+        padding: 0;
+        margin-bottom: 10px;
+        font-size: 12px;
+        width: auto;
+    }
+
+    .hero-sec .name,
+    .skills .skills-heading h1,
+    .projects .pro-heading h1,
+    .contact .con-heading h1,
+    .services .pro-heading h1,
+    .blogs_items h1 {
+        font-size: 22px;
+    }
+    
+    .hero-sec .s-info {
+        font-size: 25px;
+    }
+    .hero-sec .container,
+    .projects .container .pro-list .col-md-6 h1,
+    .projects .container .pro-list .col-md-6 img {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        top: 0;
+    }
+    /* Skills */
+    .projects .container .pro-list .col-md-6 p {
+        visibility: hidden;
+    }
+      /* Blogs */
+    .blogs_items_main img{
+        width: 250px;
+    }
+    .b_item h1{
+        font-size: 13px;
+    }
+    .b_item h1 span{
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media only screen and (max-width:1400px){
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        font-size: 45px;
+    }
+    .hero-sec .col-md-7 h2 {
+        font-size: 14px;
+    }
+    .hero-sec .col-md-7 p, .skills .skills-heading p, .projects .pro-heading p, .contact .con-heading p {
+        width: auto;
+        font-size: 15px;
+    }
+    
+}
+@media only screen and (max-width:1000px){
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        font-size: 40px;
+    }
+    nav .container ul {
+        gap: 0px;
+    }
+    nav .container ul li a {
+        font-size: 12px;
+    }
+    nav .container .resume-btn {
+        padding: 0.5rem 0.8rem;
+        margin-left: 5px;
+    }
+    /* Hero section */
+/* .hero-sec .col-md-7 {
+        padding-left: 10px;
+    }
+    .hero-sec .col-md-5 img {
+        width: 350px;
+    }
+    .hero-sec .col-md-7 .name {
+        font-size: 40px;
+    }
+    .hero-sec .col-md-7 p, .skills .skills-heading p, .projects .pro-heading p, .contact .con-heading p {
+        font-size: 12px;
+    }
+    /* Skills */
+/* .hero-sec , .skills , .projects,.contact {
+        margin: auto;
+        width: 800px;
+    } */

@@ -1,0 +1,48 @@
+.bars{
+    display: none;
+}
+@media (min-width:750px) {
+    .hero-heading {
+        width: 40rem;
+    }
+    
+}
+@media (max-width:750px) {
+    .nav-items{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .hero-heading{
+        font-size:2rem;
+    }
+    .buttons--{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: .2rem;
+    }
+    .hero-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;}
+    .main-cards{
+        flex-direction: column;
+    }
+    .clients-card{
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .graph-pic {
+        width:15rem;
+        margin-left: 1rem;
+    }
+    .servics-cards-1{
+        flex-direction: column;
+    }
+    
+
+
+}
