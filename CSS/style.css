@@ -31,7 +31,7 @@ body {
 
 /* Pre loader */
 #preloader {
-    background: rgb(168, 178, 209, .5) url(IMAGES/logo2-removebg-preview\ \(1\).png) center;
+    background: rgb(168, 178, 209, .5) url(IMAGES/logo2-removebg-preview (1).png) center;
     background-repeat: no-repeat;
     position: fixed;
     z-index: 1000;
