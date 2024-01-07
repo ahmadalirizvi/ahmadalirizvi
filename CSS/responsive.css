@@ -91,6 +91,9 @@
         font-size: 11px;
     }
     /* Blogs */
+    .b_item h1{
+        width:250px;
+    }
     .blogs_items_main{
         flex-direction: column;
     }
