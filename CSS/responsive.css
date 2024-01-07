@@ -92,7 +92,7 @@
     }
     /* Blogs */
     .b_item h1{
-        width:250px;
+        width:220px;
     }
     .blogs_items_main{
         flex-direction: column;
@@ -167,7 +167,7 @@
     }
       /* Blogs */
     .b_item h1{
-        width:250px;
+        width:220px;
     }
     .blogs_items_main{
         flex-direction: column;
