@@ -100,7 +100,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px)and(max-width: 992px) {
+@media only screen and (max-width: 992px) {
     nav .container, nav .container ul{
         gap: 0;
     }
