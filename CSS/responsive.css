@@ -1,7 +1,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    nav .container ul{
+    nav .container, nav .container ul{
         gap: 0;
+    }
+    nav .container ul li a {
+    font-size: 10px;
+    padding: 8px;
     }
     .main_nav .container ul,
     /* #on-scroll-nav, */
@@ -87,12 +91,14 @@
         font-size: 11px;
     }
     /* Blogs */
+    .blogs_items_main{
+        flex-direction: column;
+    }
     .blogs_items_main img{
         width: 300px;
     }
     .b_item h1{
         font-size: 13px;
-        width:auto;
     }
     .b_item h1 span{
         font-size: 10px;
@@ -100,7 +106,7 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px){
     nav .container, nav .container ul{
         gap: 0;
     }
@@ -108,11 +114,11 @@
     font-size: 10px;
     padding: 8px;
     }
-    .main_nav .container ul,
+    /* .main_nav .container ul, */
     /* #on-scroll-nav, */
-    nav .container .resume-btn {
-        visibility: hidden;
-    }
+    /* nav .container .resume-btn { */
+        /* visibility: hidden; */
+    /* } */
 
     /* hero section */
     .hero-sec h2 {
@@ -157,6 +163,9 @@
         visibility: hidden;
     }
       /* Blogs */
+    .blogs_items_main{
+        flex-direction: column;
+    }
     .blogs_items_main img{
         width: 250px;
     }
@@ -168,92 +177,20 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* @media only screen and (max-width:1400px){
-    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-        font-size: 45px;
+@media only screen and (max-width: 1400px){
+    .blogs_items_main{
+        flex-direction: column;
     }
-    .hero-sec .col-md-7 h2 {
-        font-size: 14px;
-    }
-    .hero-sec .col-md-7 p, .skills .skills-heading p, .projects .pro-heading p, .contact .con-heading p {
-        width: auto;
-        font-size: 15px;
-    }
-    
 }
-@media only screen and (max-width:1000px){
-    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-        font-size: 40px;
-    }
-    nav .container ul {
-        gap: 0px;
-    }
-    nav .container ul li a {
-        font-size: 12px;
-    }
-    nav .container .resume-btn {
-        padding: 0.5rem 0.8rem;
-        margin-left: 5px;
-    }
-    /* Hero section */
-/* .hero-sec .col-md-7 {
-        padding-left: 10px;
-    }
-    .hero-sec .col-md-5 img {
-        width: 350px;
-    }
-    .hero-sec .col-md-7 .name {
-        font-size: 40px;
-    }
-    .hero-sec .col-md-7 p, .skills .skills-heading p, .projects .pro-heading p, .contact .con-heading p {
-        font-size: 12px;
-    }
-    /* Skills */
-/* .hero-sec , .skills , .projects,.contact {
-        margin: auto;
-        width: 800px;
-    } */
+
+
+
+
+
+
+
+
+
+
+
+
