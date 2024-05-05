@@ -263,6 +263,7 @@ nav .container .resume-btn:hover,
 /* Skill Bar Animation */
 .skill_bar .bar .html {
     width: 95%;
+    animation: html;
 }
 
 @keyframes html {
@@ -277,6 +278,7 @@ nav .container .resume-btn:hover,
 
 .skill_bar .bar .css {
     width: 90%;
+    animation: css;
 }
 
 @keyframes css {
@@ -291,6 +293,7 @@ nav .container .resume-btn:hover,
 
 .skill_bar .bar .js {
     width: 80%;
+    animation: js;
 }
 
 @keyframes js {
@@ -305,6 +308,7 @@ nav .container .resume-btn:hover,
 
 .skill_bar .bar .bootstrap {
     width: 85%;
+    animation: bootstrap;
 }
 
 @keyframes bootstrap {
