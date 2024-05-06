@@ -10,7 +10,7 @@
     .main_nav .container ul,
     /* #on-scroll-nav, */
     nav .container .resume-btn,
-    nav .container .profile img {
+    nav .container .profile img, #on-scroll-nav {
         visibility: hidden;
     }
 
@@ -65,6 +65,9 @@
     }
 
     /* Skills */
+    .skills_main .res_1, .skills_main .res_2{
+        flex-direction: column;
+    }
     .projects .container .pro-list .col-md-6 p {
         visibility: hidden;
     }
@@ -91,9 +94,6 @@
         font-size: 11px;
     }
     /* Blogs */
-    .b_item h1{
-        width:230px;
-    }
     .blogs_items_main{
         flex-direction: column;
     }
@@ -104,7 +104,7 @@
         font-size: 13px;
     }
     .b_item h1 span{
-        font-size: 9px;
+        font-size: 10px;
     }
 }
 
@@ -127,6 +127,9 @@
     .hero-sec h2 {
         font-size: 15px;
     }
+    .hero-sec img{
+        width: 280px;
+    }
 
     .hero-sec p,
     .skills .skills-heading p,
@@ -136,7 +139,7 @@
     .service__text{
         padding: 0;
         margin-bottom: 10px;
-        font-size: 12px;
+        font-size: 10px;
         width: auto;
     }
 
@@ -155,20 +158,20 @@
     .hero-sec .container,
     .projects .container .pro-list .col-md-6 h1,
     .projects .container .pro-list .col-md-6 img {
-        text-align: center;
+        /* text-align: center;
         padding: 0;
         margin: 0;
         left: 0;
-        top: 0;
+        top: 0; */
     }
     /* Skills */
+    .skills_main{
+        flex-direction: column;
+    }
     .projects .container .pro-list .col-md-6 p {
         visibility: hidden;
     }
       /* Blogs */
-    .b_item h1{
-        width:230px;
-    }
     .blogs_items_main{
         flex-direction: column;
     }
@@ -179,24 +182,20 @@
         font-size: 13px;
     }
     .b_item h1 span{
-        font-size: 9px;
+        font-size: 10px;
     }
 }
-
+@media only screen and (min-width: 992px){
+ .hero-sec .name {
+        font-size: 40px;
+    }
+    .hero-sec .s-info{
+        font-size: 45px;
+    }
+}
 @media only screen and (max-width: 1400px){
+   
     .blogs_items_main{
         flex-direction: column;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
