@@ -334,6 +334,7 @@ Hero Section Img {
 }
 
 .b_item h1 {
+    width:100%;
     color: var(--green);
     font-size: 14px;
     width: 400px;
