@@ -338,7 +338,7 @@ Hero Section Img {
     width:auto;
     color: var(--green);
     font-size: 14px;
-    width: 400px;
+/*     width: 400px; */
 }
 
 .b_item h1 span {
