@@ -3,7 +3,6 @@
     margin: 0;
     box-sizing: border-box;
     text-decoration: none !important;
-     overflow-x: hidden !important; 
 }
 
 :root {
@@ -316,6 +315,7 @@ nav .container .resume-btn:hover,
     box-shadow: 0 0 41px -3px black;
     border-radius: 15px;
     background-color: var(--light-navy);
+    overflow-x: hidden !important; 
 }
 
 .blog_bar {
