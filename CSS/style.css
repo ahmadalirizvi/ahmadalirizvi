@@ -174,7 +174,7 @@ nav .container .resume-btn:hover,
 }
 
 .hero-sec img {
-    opacity: 0.5;
+    opacity: 0.7;
     width: 350px;
     border-radius: 10px;
     border: 2px solid var(--green);
