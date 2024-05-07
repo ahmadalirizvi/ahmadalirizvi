@@ -216,6 +216,7 @@ nav .container .resume-btn:hover,
 
 .skills_main {
     margin-top: 50px;
+     gap: 10px;
 }
 .res_1, .res_2{
      gap: 10px;
