@@ -220,8 +220,10 @@ Hero Section Img {
 }
 
 .skills_main {
-    gap: 10px;
     margin-top: 50px;
+}
+.res_1, res_2{
+     gap: 10px;
 }
 
 .skills_main img {
