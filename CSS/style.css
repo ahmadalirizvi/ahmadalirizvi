@@ -173,10 +173,6 @@ nav .container .resume-btn:hover,
     width: auto;
 }
 
-Hero Section Img {
-    border: 2 solid;
-}
-
 .hero-sec img {
     opacity: 0.5;
     width: 350px;
@@ -186,7 +182,6 @@ Hero Section Img {
 
 .hero-sec img:hover {
     opacity: 100;
-    z-index: 1000000;
 }
 
 /* Skills */
