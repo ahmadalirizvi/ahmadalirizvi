@@ -180,9 +180,6 @@
         visibility: hidden;
     }
       /* Blogs */
-    .blogs_items_main{
-        flex-direction: column;
-    }
     .blogs_items_main img{
         width: 250px;
     }
