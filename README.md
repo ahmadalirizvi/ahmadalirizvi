@@ -1,5 +1,9 @@
 ### 💫 About Me:
+<div align="justify">
+
 <b>Hi there 👋</b> I am software engineering student at the University of Management and Technology. I work across software development, web development, and WordPress, building and maintaining production sites, and writing requirements engineering focused coursework and research. Currently leveling up in AI Engineering.
+
+</div>
 <hr>
 
 ### 💻 Tech Stack:
