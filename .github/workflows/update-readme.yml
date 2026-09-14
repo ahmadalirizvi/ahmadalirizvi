@@ -5,16 +5,76 @@ on:
     - cron: '0 0 * * *'   # runs daily at midnight UTC
   workflow_dispatch:        # lets you trigger it manually too
 
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate repo cards
-        uses: anuraghazra/github-readme-stats@master
-        with:
-          username: ahmadalirizvi
+      - name: Update featured repos section
+        env:
+          GH_USERNAME: ahmadalirizvi
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import pathlib
+          import re
+          import urllib.request
+
+          username = os.environ["GH_USERNAME"]
+          token = os.environ.get("GH_TOKEN", "")
+          readme_path = pathlib.Path("README.md")
+          start_marker = "<!--START_SECTION:pins-->"
+          end_marker = "<!--END_SECTION:pins-->"
+
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "User-Agent": "update-readme-workflow",
+          }
+          if token:
+              headers["Authorization"] = "Bearer " + token
+
+          request = urllib.request.Request(
+              f"https://api.github.com/users/{username}/repos?per_page=100&type=owner&sort=updated",
+              headers=headers,
+          )
+          with urllib.request.urlopen(request) as response:
+              repos = json.load(response)
+
+          featured = sorted(
+              (
+                  repo
+                  for repo in repos
+                  if not repo.get("fork") and repo.get("name", "").lower() != username.lower()
+              ),
+              key=lambda repo: (repo.get("stargazers_count", 0), repo.get("updated_at", "")),
+              reverse=True,
+          )[:6]
+
+          if featured:
+              section_lines = [
+                  f"- [{repo['name']}]({repo['html_url']}) — {repo.get('description') or 'No description'} (⭐ {repo.get('stargazers_count', 0)})"
+                  for repo in featured
+              ]
+              section_content = "\n".join(section_lines)
+          else:
+              section_content = "No public repositories available."
+
+          content = readme_path.read_text(encoding="utf-8")
+          pattern = re.compile(
+              rf"({re.escape(start_marker)}\n)([\s\S]*?)({re.escape(end_marker)})",
+              flags=re.DOTALL,
+          )
+          if not pattern.search(content):
+              raise SystemExit("README markers for pins section were not found.")
+          updated = pattern.sub(rf"\1{section_content}\n\3", content, count=1)
+          readme_path.write_text(updated, encoding="utf-8")
+          PY
 
       - name: Commit changes
         run: |
