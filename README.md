@@ -14,7 +14,7 @@
 
 ---
 
-## 💻 Tech Stack
+#### 💻 Tech Stack
 
 <div align="center">
   <div align="center">
@@ -26,7 +26,7 @@
 
 ---
 
-## ✍️ Daily Dose
+#### ✍️ Daily Dose
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
@@ -36,16 +36,16 @@
 
 ---
 
-## Connect With Me
+#### 🌐 Connect With Me
 
 <div align="center">
   <a href="mailto:ahmadrizvi438@gmail.com"><img src="https://img.icons8.com/color/48/gmail-new.png" width="32" height="32" alt="Gmail"/></a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://linkedin.com/in/ahmadalirizvi"><img src="https://img.icons8.com/color/48/linkedin.png" width="35" height="35" alt="LinkedIn"/></a>
   &nbsp;&nbsp;&nbsp;
-  <a href="https://facebook.com/profile.php?id=100094589286295"><img src="https://img.icons8.com/color/48/facebook-new.png" width="35" height="35" alt="Facebook"/></a>
-  &nbsp;&nbsp;&nbsp;
   <a href="https://instagram.com/ahmadalirizvi_"><img src="https://img.icons8.com/color/48/instagram-new.png" width="35" height="35" alt="Instagram"/></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://facebook.com/profile.php?id=100094589286295"><img src="https://img.icons8.com/color/48/facebook-new.png" width="35" height="35" alt="Facebook"/></a>
 </div>
 
 <br>
