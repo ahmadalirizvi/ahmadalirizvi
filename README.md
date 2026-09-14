@@ -53,11 +53,13 @@ $ grep -r "open_to" ./opportunities
 
 ---
 
-### 📌 Featured Repos
+#### 📊 GitHub Stats
 
-<!--START_SECTION:pins-->
-<!--END_SECTION:pins-->
+<div align="center">
 
+<img src="./profile/stats.svg" width="500" />
+
+</div>
 
 ---
 
