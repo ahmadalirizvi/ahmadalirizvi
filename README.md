@@ -53,16 +53,6 @@ $ grep -r "open_to" ./opportunities
 
 ---
 
-#### 📊 GitHub Stats
-
-<div align="center">
-
-<img src="./profile/stats.svg" width="500" />
-
-</div>
-
----
-
 #### 🤝 Let's Connect!
 
 <div align="center">
