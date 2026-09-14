@@ -1,25 +1,34 @@
-name: Update Featured Repos
+```yaml
+name: Update README Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # runs daily at midnight UTC
-  workflow_dispatch:        # lets you trigger it manually too
+    - cron: '0 0 * * *'
+  workflow_dispatch:
 
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
 
-      - name: Generate repo cards
-        uses: anuraghazra/github-readme-stats@master
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Generate GitHub Stats
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          username: ahmadalirizvi
+          card: stats
+          options: username=ahmadalirizvi&show_icons=true&theme=tokyonight
+          path: profile/stats.svg
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --quiet && git diff --staged --quiet || git commit -m "chore: auto-update stats"
+          git add profile/stats.svg
+          git diff --cached --quiet || git commit -m "chore: update GitHub stats"
           git push
+```
