@@ -1,34 +1,55 @@
-### 💫 About Me:
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1200&color=FFFFFF&center=true&vCenter=true&width=700&height=45&lines=Hi%2C+I+am+a+Software+Engineer;Hi%2C+I+am+a+Web+Developer;Hi%2C+I+am+a+WordPress+Developer;Hi%2C+I+am+a+Graphic+Designer" alt="Typing SVG"/>
+
+</div>
+
 <div align="justify">
 
-<b>Hi there 👋</b> I am software engineering student at the University of Management and Technology. I work across software development, web development, and WordPress, building and maintaining production sites, and writing requirements engineering focused coursework and research. Currently leveling up in AI Engineering.
+<b>Hi there 👋</b> I am a Software Engineering student at the University of Management and Technology. I work across software development, web development, and WordPress, building and maintaining production websites while working on software engineering projects, requirements engineering, and research. Currently focused on expanding my skills in AI Engineering.
 
 </div>
-<hr>
 
-### 💻 Tech Stack:
+<br>
+
+---
+
+## 💻 Tech Stack
+
 <div align="center">
-
-![Python](https://img.shields.io/badge/python-3670A0?style=plastic&logo=python&logoColor=ffdd54)
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E)  ![WordPress](https://img.shields.io/badge/WordPress-%23117AC9.svg?style=plastic&logo=WordPress&logoColor=white) 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=plastic&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=plastic&logo=github&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=plastic&logo=mysql&logoColor=white) ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=plastic&logo=microsoft%20sql%20server&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=plastic&logo=figma&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=plastic&logo=adobe%20photoshop&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=plastic&logo=Canva&logoColor=white) ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF.svg?style=plastic&logo=Adobe%20Premiere%20Pro&logoColor=white) 
-
+  <div align="center">
+    <img src="https://skillicons.dev/icons?i=python,cpp,js,docker,mysql,git,github,wordpress,html,css,figma,ps,pr&perline=14" />
+  </div>
 </div>
-<hr>
 
+<br>
 
-### ✍️ Daily Dose
+---
+
+## ✍️ Daily Dose
+
 <div align="center">
-  
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
 </div>
-<hr>
 
+<br>
 
-### 🌐 Socials:
+---
+
+## Connect With Me
+
 <div align="center">
+  <a href="mailto:ahmadrizvi438@gmail.com"><img src="https://img.icons8.com/color/48/gmail-new.png" width="32" height="32" alt="Gmail"/></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://linkedin.com/in/ahmadalirizvi"><img src="https://img.icons8.com/color/48/linkedin.png" width="35" height="35" alt="LinkedIn"/></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://facebook.com/profile.php?id=100094589286295"><img src="https://img.icons8.com/color/48/facebook-new.png" width="35" height="35" alt="Facebook"/></a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://instagram.com/ahmadalirizvi_"><img src="https://img.icons8.com/color/48/instagram-new.png" width="35" height="35" alt="Instagram"/></a>
+</div>
 
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/profile.php?id=100094589286295) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ahmadalirizvi_) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/ahmadalirizvi)
+<br>
 
+<div align="center">
+  <sub>Building • Learning • Creating</sub>
 </div>
