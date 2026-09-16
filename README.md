@@ -4,7 +4,7 @@
 
 ![Code Time](https://img.shields.io/badge/Code%20Time-1266h%2048m-0D1117?style=flat-square&labelColor=161B22&logo=clockify&logoColor=58A6FF)
 ![AI Code Time](https://img.shields.io/badge/AI%20Code%20Time-565h%208m-0D1117?style=flat-square&labelColor=161B22&logo=openai&logoColor=A371F7)
-![Profile Views](https://img.shields.io/badge/Profile%20Views-128-0D1117?style=flat-square&labelColor=161B22&logo=github&logoColor=3FB950)
+![Profile Views](https://komarev.com/ghpvc/?username=ahmadalirizvi&style=flat-square&color=0D1117&label=Profile+Views)
 
 </div>
 
