@@ -2,10 +2,6 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=DC8A4D&center=true&vCenter=true&random=false&width=700&lines=Hey+%F0%9F%91%8B+I'm+Ahmad+Ali+Rizvi;Software+Engineer;Problem+Solver;Web+Developer;WordPress+Developer;Graphic+Designer" alt="Typing SVG" />
 
-![Code Time](https://img.shields.io/badge/Code%20Time-1266h%2048m-0D1117?style=flat-square&labelColor=161B22&logo=clockify&logoColor=58A6FF)
-![AI Code Time](https://img.shields.io/badge/AI%20Code%20Time-565h%208m-0D1117?style=flat-square&labelColor=161B22&logo=openai&logoColor=A371F7)
-![Profile Views](https://komarev.com/ghpvc/?username=ahmadalirizvi&style=flat-square&color=0D1117&label=Profile+Views)
-
 </div>
 
 ---
