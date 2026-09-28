@@ -47,6 +47,18 @@ $ grep -r "open_to" ./opportunities
 
 ---
 
+### 🔨 Currently Building
+<div align="center">
+  
+| Project | Description | Status |
+|---|---|---|
+| [ELA](https://github.com/ahmadalirizvi/ELA) | My personal assistant is in making! | 🚧 In Development |
+| [Shift Sense](https://github.com/ahmadalirizvi/shift-sense) | AI powered shift allocation and scheduling system | 🚧 In Development |
+
+</div>
+
+---
+
 #### 🤝 Let's Connect!
 
 <div align="center">
